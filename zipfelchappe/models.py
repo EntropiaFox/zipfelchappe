@@ -21,7 +21,6 @@ from django.utils.timezone import now
 
 from feincms.contrib.richtext import RichTextField
 from feincms.models import Base
-from feincms.management.checker import check_database_schema as check_db_schema
 from feincms.utils.queryset_transform import TransformQuerySet
 from feincms.content.application import models as app_models
 
@@ -713,6 +712,3 @@ class Project(Base, TranslatedMixin):
             field.add_formfield(fields, self)
 
         return type(b'Form%s' % self.pk, (forms.Form,), fields)
-
-
-signals.post_syncdb.connect(check_db_schema(Project, __name__), weak=False)

@@ -1,3 +1,4 @@
-Django>=1.7
+Django>=1.7,<1.9
 FeinCMS>=1.7.1
+django-contrib-comments
 requests

@@ -5,7 +5,7 @@ from django import template
 register = template.Library()
 
 if 'django.contrib.comments' in settings.INSTALLED_APPS:
-    from django.contrib.comments.templatetags.comments import *
+    from django_comments.templatetags.comments import *
 else:
     @register.simple_tag(name='get_comment_count')
     @register.simple_tag(name='get_comment_list')

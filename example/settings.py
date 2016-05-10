@@ -99,7 +99,6 @@ AUTHENTICATION_BACKENDS = (
 
 INSTALLED_APPS = (
     'django.contrib.auth',
-    'django.contrib.comments',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
@@ -107,6 +106,10 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
+
+    # add
+    'django_comments',
+
 
     # debug purposes
     # 'debug_toolbar',
@@ -131,11 +134,6 @@ _ = lambda x: x
 
 ZIPFELCHAPPE_BACKER_PROFILE = 'backerprofiles.BackerProfile'
 ZIPFELCHAPPE_TERMS_URL = '/'
-
-
-FEINCMS_RICHTEXT_INIT_CONTEXT = {
-    'TINYMCE_JS_URL': '/static/tiny_mce/tiny_mce.js',
-    }
 
 DEBUG_TOOLBAR_CONFIG = {
     'INTERCEPT_REDIRECTS': False,
