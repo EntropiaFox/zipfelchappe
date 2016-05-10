@@ -1,0 +1,985 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-15 19:50+0200\n"
+"PO-Revision-Date: 2012-08-30 18:18\n"
+"Last-Translator: Rene Dohmen <acidjunk@gmail.com>\n"
+"Language-Team: Dutch <acidjunk@gmail.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Translated-Using: django-rosetta 0.6.8\n"
+
+#: admin.py:77
+msgid "Export as csv"
+msgstr "Als CSV exporteren"
+
+#: admin.py:124
+msgid "Reward"
+msgstr "Beloning"
+
+#: admin.py:145
+msgid "Paypal status"
+msgstr "Paypal status"
+
+#: admin.py:150
+msgid "approval inactive"
+msgstr "Bevestiging inactief"
+
+#: admin.py:151
+msgid "is approved"
+msgstr "bevestigd"
+
+#: admin.py:152
+msgid "is paid"
+msgstr "betaald"
+
+#: admin.py:187
+msgid "(None)"
+msgstr "(Geen)"
+
+#: admin.py:188
+msgid "username"
+msgstr "Geruikersnaam"
+
+#: admin.py:192 forms.py:64 models.py:170 paypal/models.py:15
+#: postfinance/models.py:53
+msgid "amount"
+msgstr "Bedrag"
+
+#: admin.py:205
+msgid "Save pledge first to select a reward"
+msgstr "Um eine Belohnung auszuwählen, bitte zuerst speichern."
+
+#: admin.py:376 translations/admin.py:85
+msgid "teaser"
+msgstr "Teaser"
+
+#: admin.py:388
+msgid "achieved"
+msgstr "erreicht"
+
+#: base.py:10
+msgid "created"
+msgstr "erstellt"
+
+#: base.py:11
+msgid "modified"
+msgstr "geändert"
+
+#: content.py:11 models.py:167 models.py:276 models.py:362 models.py:569
+msgid "project"
+msgstr "Projekt"
+
+#: content.py:15
+msgid "project teaser"
+msgstr "Projekt-Teaser"
+
+#: content.py:16
+msgid "project teasers"
+msgstr "Projekt-Teaser"
+
+#: content.py:30
+msgid "project 1"
+msgstr "projekt 1"
+
+#: content.py:33
+msgid "project 2"
+msgstr "projekt 2"
+
+#: content.py:36
+msgid "project 3"
+msgstr "projekt 3"
+
+#: content.py:40 content.py:41
+msgid "project teaser row"
+msgstr "Projekt-Teaser"
+
+#: extensions/author.py:13
+msgid "author"
+msgstr "Autor"
+
+#: extensions/categories.py:22 extensions/categories.py:30 models.py:332
+msgid "categories"
+msgstr "Kategorieen"
+
+#: forms.py:40
+msgid "Please select a reward"
+msgstr "Bitte eine Belohnung auswählen"
+
+#: forms.py:68 models.py:289 translations/models.py:45
+msgid "reward"
+msgstr "Belohnung"
+
+#: forms.py:68
+msgid "No reward"
+msgstr "Keine Belohnung"
+
+#: forms.py:70 models.py:181
+msgid "payment provider"
+msgstr "Zahlungsanbieter"
+
+# python-format
+#: forms.py:105
+#, python-format
+msgid ""
+"I have read and agree with the <a href=\"%(url)s\">Terms and Conditions</a>"
+msgstr "Ich habe die <a href=\"%(url)s\">AGBs</a> gelesen und akzeptiert"
+
+#: forms.py:124
+msgid "Amount must be higher than 0"
+msgstr "Betrag muss grösser als 0 sein"
+
+#  python-format
+#: forms.py:128
+#, python-format
+msgid "Sorry, %(max_amount)s is the maximal amount."
+msgstr ""
+"%(max_amount)s ist leider unser Maximalbetrag. Danke jedoch für den guten "
+"Willen!"
+
+#: forms.py:139
+msgid "Amount is to low for a reward!"
+msgstr "Der Betrag is zu klein für eine Belohnung"
+
+#: forms.py:143
+msgid "Sorry, this reward is not available anymore."
+msgstr "Diese Belohnung ist leider nicht mehr verfügbar"
+
+#: models.py:70 models.py:164
+msgid "backer"
+msgstr "Unterstützer"
+
+#: models.py:71 models.py:558
+msgid "backers"
+msgstr "Unterstützer"
+
+#: models.py:146
+msgid "Unauthorized"
+msgstr "Unbewilligt"
+
+#: models.py:147
+msgid "Authorized"
+msgstr "Bewilligt"
+
+#: models.py:148
+msgid "Paid"
+msgstr "bezahlt"
+
+#: models.py:149
+msgid "Processing..."
+msgstr ""
+
+#: models.py:150
+msgid "Failed"
+msgstr "fehlgeschlagen"
+
+#: models.py:160
+msgid "first name"
+msgstr "Vorname"
+
+#: models.py:161
+msgid "last name"
+msgstr "Nachname"
+
+#: models.py:162 models.py:441
+msgid "e-mail address"
+msgstr "E-Mail"
+
+#: models.py:172 models.py:549 postfinance/models.py:54
+msgid "currency"
+msgstr "Währung"
+
+#: models.py:178
+msgid "anonymously"
+msgstr "Anonym"
+
+#: models.py:179
+msgid "You will not appear in the backer list"
+msgstr "Sie werden nicht in der Unterstützer-Liste erscheinen"
+
+#: models.py:184
+msgid "extra"
+msgstr ""
+
+#: models.py:186
+msgid "details"
+msgstr "Details"
+
+#: models.py:189 models.py:367 paypal/models.py:17 paypal/models.py:48
+msgid "status"
+msgstr "Status"
+
+#: models.py:193
+msgid "pledge"
+msgstr "Unterstützung"
+
+#: models.py:194
+msgid "pledges"
+msgstr "Unterstützungen"
+
+#: models.py:279
+msgid "minimum"
+msgstr "Mindesbetrag"
+
+#: models.py:280
+msgid "How much does one have to donate to receive this?"
+msgstr "Wieviel muss jemand geben, um diese Belohnung erhalten zu können?"
+
+#: models.py:282 translations/models.py:41
+msgid "description"
+msgstr "Beschreibung"
+
+#: models.py:284
+msgid "quantity"
+msgstr "Menge"
+
+#: models.py:285
+msgid ""
+"How many times can this award be given away? Empty or 0 means unlimited."
+msgstr ""
+"Wie oft kann diese Belohnung vergeben werden? Leer lassen oder 0 für "
+"unbeschränkte Anzahl."
+
+#: models.py:290 translations/models.py:46
+msgid "rewards"
+msgstr "Belohnungen"
+
+#: models.py:298
+msgid ""
+"Cannot reduce quantity to a lower value than what was already promised to "
+"backers"
+msgstr "Die Menge kann nicht auf eine kleinere Anzahl reduziert werden."
+
+#: models.py:324 models.py:365 models.py:451 models.py:540
+#: translations/models.py:17 translations/models.py:61
+msgid "title"
+msgstr "Titel"
+
+#: models.py:326 models.py:542
+msgid "slug"
+msgstr "Url-Teil"
+
+#: models.py:328 models.py:544
+msgid "ordering"
+msgstr "Reihenfolge"
+
+#: models.py:331
+msgid "category"
+msgstr "Kategorie"
+
+#: models.py:358
+msgid "Draft"
+msgstr "Entwurf"
+
+#: models.py:359
+msgid "Published"
+msgstr "Veröffentlicht"
+
+#: models.py:371 models.py:561
+msgid "image"
+msgstr "Bild"
+
+#: models.py:374
+msgid "external content"
+msgstr "Eingebetteter Inhalt"
+
+#: models.py:375
+msgid "Check http://embed.ly/providers for more details"
+msgstr "Alle verfügbaren Anbieter unter http://embed.ly/providers"
+
+#: models.py:378 translations/models.py:63
+msgid "content"
+msgstr "Inhalt"
+
+#: models.py:380
+msgid "attachment"
+msgstr "Anhang"
+
+#: models.py:384
+msgid "update"
+msgstr "Update"
+
+#: models.py:385 translations/models.py:69 translations/models.py:70
+msgid "updates"
+msgstr "Updates"
+
+#: models.py:415
+msgid "Thank you"
+msgstr "Vielen Dank"
+
+#: models.py:420
+msgid "action"
+msgstr ""
+
+#: models.py:423 translations/models.py:86
+msgid "subject"
+msgstr "Betreff"
+
+#: models.py:425 translations/models.py:88
+msgid "template"
+msgstr "Template"
+
+#: models.py:428
+msgid "email"
+msgstr "E-mail"
+
+#: models.py:429
+msgid "emails"
+msgstr "E-Mails"
+
+#: models.py:440 models.py:564
+msgid "text"
+msgstr "Text"
+
+#: models.py:442
+msgid "long text"
+msgstr "Langer Text"
+
+#: models.py:444
+msgid "checkbox"
+msgstr ""
+
+#: models.py:445
+msgid "select"
+msgstr "Auswahl"
+
+#: models.py:452
+msgid "name"
+msgstr "Name"
+
+#: models.py:454
+msgid "type"
+msgstr "Typ"
+
+#: models.py:456
+msgid "choices"
+msgstr "Auswahlmöglichkeiten"
+
+#: models.py:457
+msgid "Comma-separated"
+msgstr "Kommagetrennt"
+
+#: models.py:459
+msgid "help text"
+msgstr "Hilfetext"
+
+#: models.py:460
+msgid "Optional extra explanatory text beside the field"
+msgstr "Erklärungstext neben dem Feld (optional)"
+
+#: models.py:462
+msgid "default value"
+msgstr "Standardwert"
+
+#: models.py:463
+msgid "Optional default value of the field"
+msgstr "Standardwert des Feldes (optional)."
+
+#: models.py:464
+msgid "is required"
+msgstr "wird benötigt"
+
+#: models.py:468
+msgid "pledge field"
+msgstr "Unterstützung Feld"
+
+#: models.py:469
+msgid "pledge fields"
+msgstr "Unterstützung Felder"
+
+#: models.py:477
+#, python-format
+msgid "You can't specify choices for %s fields"
+msgstr "Sie können keine Auswahl für %s-Felder angeben."
+
+#: models.py:546
+msgid "goal"
+msgstr "Ziel"
+
+#: models.py:547
+msgid "Amount to be raised."
+msgstr "Welchen Betrag möchten sie erreichen?"
+
+#: models.py:552
+msgid "start"
+msgstr "Start"
+
+#: models.py:553
+msgid "Date when the project will be online."
+msgstr "Ab diesem Zeitpunkt wird das Projekt online erscheinen"
+
+#: models.py:555
+msgid "end"
+msgstr "Ende"
+
+#: models.py:556
+msgid "End of the fundraising campaign."
+msgstr "Kampagnenende."
+
+#: models.py:570
+msgid "projects"
+msgstr "Projekte"
+
+#: models.py:591
+msgid "Start must be before end"
+msgstr "Der Start muss vor dem Ende sein"
+
+# python-format
+# python-format
+#: models.py:595
+#, fuzzy, python-format
+#| msgid "Project duration can be max. %(duration)s days"
+msgid "Project duration can be max. %(duration) days"
+msgstr "Die Projektdauer darf maximal %(duration)s Tage betragen."
+
+#: models.py:602
+msgid ""
+"You cannot change the currency anymore once your project has been backed by "
+"users"
+msgstr ""
+"Sie können die Währung nicht mehr ändern nachdem das Projekt unterstützt "
+"wurde."
+
+#: paypal/models.py:13 paypal/models.py:44
+msgid "key"
+msgstr "key"
+
+#: paypal/models.py:19
+msgid "approved"
+msgstr "bestätigt"
+
+#: paypal/models.py:21
+msgid "sender"
+msgstr "Absender"
+
+#: paypal/models.py:23 paypal/models.py:50
+msgid "data"
+msgstr "Daten"
+
+#: paypal/models.py:26
+msgid "preapproval"
+msgstr "Vorbestätigung"
+
+#: paypal/models.py:27
+msgid "preapprovals"
+msgstr "Vorbestätigungen"
+
+#: paypal/models.py:53 postfinance/models.py:65
+msgid "payment"
+msgstr "Bezahlung"
+
+#: paypal/models.py:54 postfinance/models.py:66
+msgid "payments"
+msgstr "Bezahlungen"
+
+#: paypal/paypal_api.py:110
+msgid "No paypal receivers defined!"
+msgstr "Kein Paypal Empfänger angegeben."
+
+#: paypal/provider.py:35
+#, python-format
+msgid ""
+"A reward cannot exceed the amount of US$ %(amount)s. Please consult the "
+"PayPal Crowdfunding Application Guidelines."
+msgstr "Eine Belohnung darf US$ %(amount)s nicht überschreiten."
+
+#: paypal/provider.py:41
+msgid ""
+"You cannot change the end date anymore once your project has been backed by "
+"users"
+msgstr ""
+"Sie können das Enddatum nicht mehr ändern nachdem das Projekt unterstützt "
+"wurde."
+
+#: paypal/provider.py:45
+msgid "You cannot change the goal once your project has been backed."
+msgstr ""
+"Sie können die Währung nicht mehr ändern nachdem das Projekt unterstützt "
+"wurde."
+
+#: postfinance/models.py:46
+msgid "order id"
+msgstr "Bestellnummer"
+
+#: postfinance/models.py:72
+msgid "unknown"
+msgstr "unbekannt"
+
+# python-format
+# python-format
+#: postfinance/provider.py:34
+#, fuzzy, python-format
+#| msgid ""
+#| "Project duration can be max. %(duration)s days because of Postfinance "
+#| "rules."
+msgid ""
+"Project duration can be max. %(duration) days because of Postfinance rules."
+msgstr "Die Projektdauer darf maximal %(duration)s Tage betragen."
+
+#: templates/admin/feincms/zipfelchappe/content_editor.html:34
+#: templates/admin/feincms/zipfelchappe/project/content_editor.html:34
+#: templates/admin/feincms/zipfelchappe/projecttranslation/content_editor.html:34
+msgid "Region empty"
+msgstr "Region leer"
+
+#: templates/admin/feincms/zipfelchappe/content_editor.html:38
+#: templates/admin/feincms/zipfelchappe/project/content_editor.html:38
+#: templates/admin/feincms/zipfelchappe/projecttranslation/content_editor.html:38
+msgid ""
+"Content from the parent site is automatically inherited. To override this "
+"behaviour, add some content."
+msgstr "Inhalt vererbt. Füge Inhalt hinzu, um dies zu ändern"
+
+#: templates/admin/feincms/zipfelchappe/content_editor.html:46
+#: templates/admin/feincms/zipfelchappe/project/content_editor.html:46
+#: templates/admin/feincms/zipfelchappe/projecttranslation/content_editor.html:46
+msgid "Add new item"
+msgstr "Neues Element hinzufügen"
+
+#: templates/admin/feincms/zipfelchappe/item_editor.html:33
+#: templates/admin/feincms/zipfelchappe/projecttranslation/item_editor.html:33
+msgid "Collect payments for this project"
+msgstr "Geld für dieses Projekt einziehen."
+
+#: templates/admin/feincms/zipfelchappe/item_editor.html:35
+#: templates/admin/feincms/zipfelchappe/project/item_editor.html:38
+#: templates/admin/feincms/zipfelchappe/projecttranslation/item_editor.html:35
+msgid "Project is not ready for billing yet."
+msgstr "Das Projekt ist noch nicht beendet."
+
+#: templates/admin/feincms/zipfelchappe/project/collect_pledges.html:8
+msgid "Home"
+msgstr "Hauptseite"
+
+#: templates/admin/feincms/zipfelchappe/project/collect_pledges.html:12
+msgid "Collect pledges"
+msgstr "Unterstützung sammeln"
+
+#: templates/admin/feincms/zipfelchappe/project/collect_pledges.html:21
+msgid "Collecting"
+msgstr "Überweisung läuft..."
+
+#: templates/admin/feincms/zipfelchappe/project/collect_pledges.html:23
+msgid "authorized pledges from"
+msgstr "Bestätigte Unterstützung von"
+
+#: templates/admin/feincms/zipfelchappe/project/collect_pledges.html:30
+msgid "Stop and return to "
+msgstr "Abbrechen und zurück zu "
+
+#: templates/admin/feincms/zipfelchappe/project/item_editor.html:36
+#, python-format
+msgid "Collect %(amount)s authorized pledges"
+msgstr "%(amount)s Angebote verrechnen"
+
+#: templates/admin/zipfelchappe/pledge/change_form.html:6
+msgid "Extra fields"
+msgstr "zusätzliche Felder"
+
+#: templates/admin/zipfelchappe/pledge/change_form.html:22
+msgid ""
+"\n"
+"                    There are no extra fields for this project or you must "
+"save\n"
+"                    the pledge first.\n"
+"                "
+msgstr ""
+
+#: templates/zipfelchappe/backer_profile_form.html:7
+msgid "Create your backer profile"
+msgstr "Erstellen sie ihr Unterstützerprofil"
+
+#: templates/zipfelchappe/backer_profile_form.html:15
+msgid "Save profile"
+msgstr "Profil speichern"
+
+#: templates/zipfelchappe/includes/backer_list.html:9
+msgid "Nobody backed this project yet. Be the first one!"
+msgstr "Bisher hat noch niemand hat dieses Projekt unterstützt. Sei der Erste!"
+
+#: templates/zipfelchappe/includes/disqus_comments.html:20
+msgid "Please enable JavaScript to view comments."
+msgstr "Bitte aktivieren sie Javascript, um die Kommentare sehen zu können"
+
+#: templates/zipfelchappe/includes/django_comments.html:16 widgets.py:16
+msgid "Delete"
+msgstr "Löschen"
+
+#: templates/zipfelchappe/includes/django_comments.html:22
+msgid "before"
+msgstr "vor"
+
+#: templates/zipfelchappe/includes/django_comments.html:35
+msgid "Write a comment"
+msgstr "Einen Kommentar schreiben"
+
+#: templates/zipfelchappe/includes/django_comments.html:55
+msgid "Send"
+msgstr "Absenden"
+
+#: templates/zipfelchappe/includes/django_comments.html:64
+msgid "You must be logged in to comment on this project"
+msgstr "Sie müssen angemeldet sein, um dieses Projekt kommentieren zu können"
+
+#: templates/zipfelchappe/includes/project_detail_sidebar.html:5
+msgid "Status"
+msgstr "Stand"
+
+#: templates/zipfelchappe/includes/project_detail_sidebar.html:8
+#: templates/zipfelchappe/includes/project_sidebar.html:17
+#: templates/zipfelchappe/project_teaser.html:12
+msgid "Author"
+msgstr "Author"
+
+#: templates/zipfelchappe/includes/project_detail_sidebar.html:12
+#: templates/zipfelchappe/includes/project_sidebar.html:21
+#: templates/zipfelchappe/project_teaser.html:16
+msgid "Goal"
+msgstr "Ziel"
+
+#: templates/zipfelchappe/includes/project_detail_sidebar.html:15
+#: templates/zipfelchappe/includes/project_sidebar.html:24
+#: templates/zipfelchappe/project_teaser.html:19
+msgid "Remaining"
+msgstr "Restdauer"
+
+#: templates/zipfelchappe/includes/project_detail_sidebar.html:18
+#: templates/zipfelchappe/includes/project_sidebar.html:27
+#: templates/zipfelchappe/project_teaser.html:26
+msgid "Achieved"
+msgstr "Erreicht"
+
+#: templates/zipfelchappe/includes/project_detail_sidebar.html:33
+msgid "Back this project"
+msgstr "Jetzt spenden"
+
+#: templates/zipfelchappe/includes/project_detail_sidebar.html:40
+msgid "Rewards"
+msgstr "Belohnungen"
+
+#: templates/zipfelchappe/includes/project_detail_sidebar.html:45
+#: templates/zipfelchappe/reward_option.html:5
+msgid "From"
+msgstr "Ab"
+
+#: templates/zipfelchappe/includes/project_detail_sidebar.html:48
+#: templates/zipfelchappe/reward_option.html:5
+msgid "(or more)"
+msgstr "(oder mehr)"
+
+#: templates/zipfelchappe/includes/project_detail_sidebar.html:49
+msgid "sold out"
+msgstr "ausverkauft"
+
+#: templates/zipfelchappe/includes/updates.html:4
+msgid "Created at"
+msgstr "erstellt"
+
+#: templates/zipfelchappe/paypal_payment_error.html:6
+msgid "Payment Error"
+msgstr "Bezahlungsfehler"
+
+#: templates/zipfelchappe/paypal_payment_error.html:9
+msgid ""
+"\n"
+"        We couldn't get a preapproval key from paypal. This may be due to\n"
+"        a network errors or a paypal error. We regret this an we hope to fix "
+"it\n"
+"        soon if this is a permanent error.\n"
+"    "
+msgstr ""
+"\n"
+"Leider konnten wir keine Vorbestätig bei Paypal einrichten. Das könnte an "
+"einem Netzwerkfehler liegen. Wir bedauern dies sehr und hoffen, dieses "
+"Problem so schnell wie möglich beheben zu können"
+
+#: templates/zipfelchappe/paypal_payment_error.html:18
+msgid "PAYPAL told us:"
+msgstr "Paypal meldet:"
+
+#: templates/zipfelchappe/paypal_payment_error.html:24
+msgid "Show more details"
+msgstr "Mehr anzeigen"
+
+#: templates/zipfelchappe/pledge_lost.html:6
+msgid "Pledge data is lost!"
+msgstr "Unterstüzungsdaten verloren!"
+
+#: templates/zipfelchappe/pledge_lost.html:8
+msgid ""
+"\n"
+"        Oh no, we lost you pledge data. This should never have happend,\n"
+"        sorry! A reason for this could be if we changed something on the\n"
+"        server or if you deleted your cookies. Please try again, maybe it\n"
+"        works this time.\n"
+"    "
+msgstr ""
+"\n"
+"Ihre Daten sind leider verloren gegangen. Dies hätte  nie passieren dürfen! "
+"Bitte versuchen sie es nochmals, wir sind sicher das es diesmal klappt"
+
+#: templates/zipfelchappe/pledge_lost.html:18
+msgid "Back to projects"
+msgstr "Zurück zu den Projekten"
+
+#: templates/zipfelchappe/postfinance_declined.html:7
+msgid "Payment declined"
+msgstr "Bezahlung verweigert"
+
+#: templates/zipfelchappe/postfinance_declined.html:9
+msgid "Your payment was declined by the payment provider."
+msgstr "Ihre Bezahlung wurde vom Anbieter verweigert."
+
+#: templates/zipfelchappe/postfinance_declined.html:10
+msgid "Please try again later or use another payment provider."
+msgstr ""
+"Bitte versuchen Sie es nochmals oder verwenden Sie eine andere "
+"Zahlungsmöglichkeit."
+
+#: templates/zipfelchappe/postfinance_declined.html:13
+#: templates/zipfelchappe/postfinance_exception.html:12
+msgid "Return to the project"
+msgstr "Zurück zum Projekt"
+
+#: templates/zipfelchappe/postfinance_exception.html:7
+msgid "Payment failed"
+msgstr "Bezahlung nicht erfolgreich"
+
+#: templates/zipfelchappe/postfinance_exception.html:9
+msgid ""
+"There was an error processing your payment. Your credit card has not been "
+"charged."
+msgstr ""
+"Es gab einen Fehler beim Verarbeiten Ihrer Zahlung. Ihre Kreditkarte wurde "
+"nicht belastet."
+
+#: templates/zipfelchappe/postfinance_form.html:7
+msgid "Payment"
+msgstr "Bezahlung"
+
+#: templates/zipfelchappe/postfinance_form.html:9
+msgid "You will be forwarded to Postfinance for payment now."
+msgstr "Sie werden für die Bezahlung zur Postfinance-Seite weitergeleitet."
+
+#: templates/zipfelchappe/postfinance_form.html:27
+msgid "Pay now"
+msgstr "Jetzt bezahlen"
+
+#: templates/zipfelchappe/postfinance_form.html:37
+msgid "The form was not submitted if DEBUG was true."
+msgstr "Das Formular wird nicht übermittelt wenn DEBUG=True ist."
+
+#: templates/zipfelchappe/project_back_form.html:44
+msgid "Pledge anonymously"
+msgstr "Anonym spenden"
+
+#: templates/zipfelchappe/project_back_form.html:60
+#, fuzzy
+#| msgid "payment provider"
+msgid "Select payment provider"
+msgstr "Zahlungsanbieter"
+
+#: templates/zipfelchappe/project_back_form.html:69
+msgid "When you click on \"Back this Project!\" the following happens..."
+msgstr "Wenn Sie auf \"Projekt unterstützen\" klicken, passiert folgendes..."
+
+#: templates/zipfelchappe/project_back_form.html:71
+#| msgid "You will be forwarded to Postfinance for payment now."
+msgid ""
+"You will be redirected to Postfinance where you can pay for your pledge."
+msgstr "Sie werden für die Bezahlung zur Postfinance-Seite weitergeleitet."
+
+#: templates/zipfelchappe/project_back_form.html:72
+msgid ""
+"We will send you an email with our account information. You can order a "
+"payment slip as well."
+msgstr ""
+"Wir schicken Ihnen eine E-Mail mit den Zahlungsinformationen. Sie können "
+"auch einen Einzahlungsschein bestellen."
+
+#: templates/zipfelchappe/project_back_form.html:73
+msgid "You will be redirected to Paypal where you can pay for your pledge."
+msgstr "Sie werden für die Bezahlung zur Paypal-Seite weitergeleitet."
+
+#: templates/zipfelchappe/project_back_form.html:94
+msgid "Back this Project!"
+msgstr "Jetzt unterstützen!"
+
+#: templates/zipfelchappe/project_detail.html:10
+msgid "Project"
+msgstr "Projekt"
+
+#: templates/zipfelchappe/project_detail.html:16
+msgid "Updates"
+msgstr "Updates"
+
+#: templates/zipfelchappe/project_detail.html:24
+msgid "Backers"
+msgstr "Unterstützer"
+
+#: templates/zipfelchappe/project_detail.html:31
+#: templates/zipfelchappe/project_detail.html:34
+msgid "Comments"
+msgstr "Kommentare"
+
+#: templates/zipfelchappe/project_list.html:4
+msgid "Project list"
+msgstr "Projekte"
+
+#: templates/zipfelchappe/project_list.html:12
+msgid "Sorry, no projects found"
+msgstr "Sorry, leider haben wir keine Projekte gefunden"
+
+#: templates/zipfelchappe/project_list.html:36
+msgid "Categories"
+msgstr "Kategorieen"
+
+#: templates/zipfelchappe/project_list.html:42
+msgid "All"
+msgstr "Alle"
+
+#: translations/models.py:14
+msgid "language"
+msgstr "Sprache"
+
+#: translations/models.py:19
+msgid "teaser text"
+msgstr "Teaser Text"
+
+#: translations/models.py:23
+msgid "translation"
+msgstr "Übersetzung"
+
+#: translations/models.py:24
+msgid "translations"
+msgstr "Übersetzungen"
+
+#: translations/models.py:92
+msgid "mail"
+msgstr "E-Mail"
+
+#: translations/models.py:93
+msgid "mails"
+msgstr "E-Mails"
+
+#: views.py:222
+msgid "This project has ended and does not accept pledges anymore."
+msgstr "Dieses Projekt ist beendet und kann nicht mehr unterstützt werden"
+
+#: views.py:294
+msgid "Your pledge was cancelled"
+msgstr "Der Vorgang wurde abgebrochen."
+
+#: widgets.py:15
+msgid "Change"
+msgstr "Ändern"
+
+#, fuzzy
+#~| msgid "e-mail address"
+#~ msgid "address"
+#~ msgstr "E-Mail"
+
+#, fuzzy
+#~| msgid "Payment declined"
+#~ msgid "payment received"
+#~ msgstr "Bezahlung verweigert"
+
+#, fuzzy
+#~| msgid "payments"
+#~ msgid "payment slip sent"
+#~ msgstr "Bezahlungen"
+
+#, fuzzy
+#~| msgid "first name"
+#~ msgid "first_name"
+#~ msgstr "Vorname"
+
+#, fuzzy
+#~| msgid "payment"
+#~ msgid "cod payment"
+#~ msgstr "Bezahlung"
+
+#, fuzzy
+#~| msgid "payments"
+#~ msgid "cod payments"
+#~ msgstr "Bezahlungen"
+
+#~ msgid "Paypal"
+#~ msgstr "Paypal"
+
+#~ msgid "Offline"
+#~ msgstr "offline"
+
+#~ msgid "Login"
+#~ msgstr "Login"
+
+#~ msgid "Register"
+#~ msgstr "Registrieren"
+
+#~ msgid "An exception occured during payment. The exception message is:"
+#~ msgstr "Ein Fehler ist aufgetreten. Die Fehlermeldung ist:"
+
+#~ msgid "Collect"
+#~ msgstr "Einsammeln"
+
+#~ msgid "Content"
+#~ msgstr "Inhalt"
+
+#~ msgid "Back this Projzipfelchappeect!"
+#~ msgstr "Jetzt spenden!"
+
+#~ msgid "inserted manually"
+#~ msgstr "Manuell eingefügt"
+
+#~ msgid "Until when money is raised"
+#~ msgstr "Bis zu diesem Zeitpunkt können Unterstüzungen eingereicht werden"
+
+#~ msgid ""
+#~ "Unfortuantley you could not be logged in after registration. Please try "
+#~ "again!"
+#~ msgstr ""
+#~ "Leider konnten sie nach der registrierung nicht eingeloggt werden. Bitte "
+#~ "versuchen sie es nochmals"
+
+#~ msgid "percent"
+#~ msgstr "Prozent"
+
+#~ msgid "primary"
+#~ msgstr "primär"
+
+#~ msgid "paypal receiver"
+#~ msgstr "Paypal Empfänger"
+
+#~ msgid "Percent must be 100 in total! Now is %d %%"
+#~ msgstr ""
+#~ "Die Prozentangaben müssen zusammengezählt 100 ergeben. Jetzt ergeben sie "
+#~ "%d%%"
+
+#~ msgid "You must define exactly one primary receiver"
+#~ msgstr "Sie müssen exakt einen primären Empfänger bestimmen"
+
+#~ msgid "No PAYPAL_RECEIVERS defined!"
+#~ msgstr "PAYPAL_RECEIVERS ist nicht definiert"
+
+#~ msgid "Cannot change currency with pledges!"
+#~ msgstr "Die Währung kann nicht mehr geändert werden"
+
+#~ msgid "templates"
+#~ msgstr "templates"
+
+#, fuzzy
+#~ msgid "Thank you very much for your pledge"
+#~ msgstr "Danke viel viel mals , wir schätzen ihre Unterstützung!"
+
+#~ msgid "Please, just 5 bucks!"
+#~ msgstr "Bitte, wir wollen doch nur 5 Mäuse!"

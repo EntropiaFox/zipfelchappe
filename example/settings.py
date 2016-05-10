@@ -111,7 +111,6 @@ INSTALLED_APPS = [
     # add
     'django_comments',
 
-
     # debug purposes
     # 'debug_toolbar',
 
