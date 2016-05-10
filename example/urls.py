@@ -15,8 +15,14 @@ urlpatterns = patterns('',
     url(r'^paypal/', include('zipfelchappe.paypal.urls')),
     url(r'^postfinance/', include('zipfelchappe.postfinance.urls')),
     url(r'^cod/', include('zipfelchappe.cod.urls')),
-    url(r'', include('feincms.urls')),
 )
+
+if 'rosetta' in settings.INSTALLED_APPS:
+    urlpatterns += patterns('',
+        url(r'^rosetta/', include('rosetta.urls')),
+    )
+
+urlpatterns += patterns('', url(r'', include('feincms.urls')),)
 
 if settings.DEBUG:
     urlpatterns += staticfiles_urlpatterns()
