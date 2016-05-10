@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-15 19:50+0200\n"
-"PO-Revision-Date: 2016-05-10 21:04+0030\n"
+"PO-Revision-Date: 2016-05-10 22:44+0030\n"
 "Last-Translator:   <>\n"
 "Language-Team: Dutch <acidjunk@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -177,7 +177,7 @@ msgstr "bezahlt"
 
 #: models.py:149
 msgid "Processing..."
-msgstr ""
+msgstr "Verwerken..."
 
 #: models.py:150
 msgid "Failed"
@@ -209,7 +209,7 @@ msgstr "Sie werden nicht in der Unterstützer-Liste erscheinen"
 
 #: models.py:184
 msgid "extra"
-msgstr ""
+msgstr "extra"
 
 #: models.py:186
 msgid "details"
@@ -319,7 +319,7 @@ msgstr "Vielen Dank"
 
 #: models.py:420
 msgid "action"
-msgstr ""
+msgstr "actie"
 
 #: models.py:423 translations/models.py:86
 msgid "subject"
@@ -347,7 +347,7 @@ msgstr "Langer Text"
 
 #: models.py:444
 msgid "checkbox"
-msgstr ""
+msgstr "checkbox"
 
 #: models.py:445
 msgid "select"
@@ -592,6 +592,8 @@ msgid ""
 "                    the pledge first.\n"
 "                "
 msgstr ""
+"\n"
+"Er zijn geen extra velden voor dit project of je moet de pledge eerst opslaan."
 
 #: templates/zipfelchappe/backer_profile_form.html:7
 msgid "Create your backer profile"
