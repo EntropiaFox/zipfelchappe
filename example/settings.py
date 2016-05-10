@@ -36,6 +36,7 @@ _ = lambda s: s
 LANGUAGES = (
     ('de', _('German')),
     ('en', _('English')),
+    ('nl', _('Dutch')),
 )
 
 SITE_ID = 1
@@ -97,7 +98,7 @@ AUTHENTICATION_BACKENDS = (
     'django.contrib.auth.backends.ModelBackend',
 )
 
-INSTALLED_APPS = (
+INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -127,7 +128,7 @@ INSTALLED_APPS = (
 
     'example',
     'example.backerprofiles',
-)
+]
 
 _ = lambda x: x
 
