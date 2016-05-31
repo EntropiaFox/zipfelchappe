@@ -1,4 +1,3 @@
-
 zipfelchappe
 ============
 
@@ -11,7 +10,7 @@ http://www.beiss-den-hai.ch/
 Docs are here: https://zipfelchappe.readthedocs.org/
 
 Django 1.8, FeinCMS 1.12
-^^^^^^^^^^^^^^^^^^^^^^^^
+========================
 As in Django 1.8 ContentType are changed migrations will fail with: Error creating new content types.
 http://stackoverflow.com/questions/29917442/error-creating-new-content-types-please-make-sure-contenttypes-is-migrated-befo
 
