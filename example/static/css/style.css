@@ -23,7 +23,6 @@ body {
     display: block;
     padding: 5px;
     background-color: #fefefe;
-    height: 150px;
     font-size: 13px;
     cursor: pointer;
     text-decoration: none;
@@ -44,7 +43,6 @@ body {
 }
 
 .project.teaser .progress {
-    margin-bottom: 8px;
 }
 
 .project_link {

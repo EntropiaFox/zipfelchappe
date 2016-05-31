@@ -152,7 +152,7 @@ class ProjectDetailView(FeincmsRenderMixin, ContentView):
 
     def get_queryset(self):
         # limit queryset to projects that have started.
-        return Project.objects.online().select_related('rewards')
+        return Project.objects.online()
 
     def get_context_data(self, **kwargs):
         context = super(ProjectDetailView, self).get_context_data(**kwargs)

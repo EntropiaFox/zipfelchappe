@@ -28,5 +28,5 @@
         </div>
     </div>
 
-    <p>{{ project.translated.teaser_text|truncatewords:54 }}</p>
+    {{ project.translated.teaser_text|safe }}
 </a>
