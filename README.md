@@ -26,3 +26,5 @@ landingpage at /projects
 ![Setup Project Landing page](docs/_static/landingpage.png?raw=true "Setup Project Landing page")
 
 A small demo is available at https://fundraiser.formatics.nl
+
+![Demo](docs/_static/demo.png?raw=true "Demo page")
